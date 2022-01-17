@@ -1,6 +1,8 @@
 canvas {
     display: block;
     margin-left: auto;
+    /* width: 400px;
+    height: 400px; */
     margin-right: auto;
     border: 1px solid black;
 }
@@ -10,4 +12,9 @@ p {
     font-family: 'Press Start 2P', cursive;
     font-size: 1.5rem;
     /* color: red; */
+}
+
+.joystick {
+    display: flex;
+    justify-content: center;
 }
